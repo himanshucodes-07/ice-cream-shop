@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    
+}
+body{
+    background-color:rgb(219, 228, 237);
+}
+.login{
+
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.log-head{
+    
+    padding-top: 50px;
+
+}
+
+.log-head1{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.61);;
+    font-size: 23px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.log-form{
+    width: 600px;
+    background-color: white;
+    height: 310px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    height: max-content;
+
+   
+}
+.log-form1{
+    padding-top: 25px;
+    padding-right: 25px;
+    background-color: white;
+
+}
+.form{
+
+background-color: white;
+margin-top: 15px;
+
+
+}
+
+.form-control{
+    width: 92%;
+    background-color: white;
+    height: 30px;
+    margin-left: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.607);
+}
+.field{
+    background-color: white;
+}
+.field p{
+    margin-top: 18px;
+    margin-bottom: 13px;
+    background-color: white;
+    margin-left: 15px;
+}
+.botton{
+    transform: translateX(-30%);
+    background-color: rgb(19, 143, 239);
+    width: 80px;
+    height: 26px;
+    border: none;
+   float: right;
+   color: white;
+}
+
+.new-account{
+    margin-top: 25px;
+    margin-left: 15px;
+}

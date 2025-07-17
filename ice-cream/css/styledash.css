@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    
+}
+body{
+    background-color:rgb(219, 228, 237);
+}
+.login{
+
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.log-head{
+    
+    padding-top: 50px;
+
+}
+
+.log-head1{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.61);;
+    font-size: 23px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.log-form{
+    width: 600px;
+    background-color: white;
+    height: 310px;
+   
+}
+.log-form1{
+    padding-top: 25px;
+    padding-right: 25px;
+    background-color: white;
+
+}
+form{
+padding-left: 30px;
+background-color: white;
+margin-top: 20px;
+
+}
+
+.form-control{
+    width: 92%;
+    background-color: white;
+    height: 30px;
+    margin-left: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.607);
+}
+.field{
+    background-color: white;
+}
+.field p{
+    margin-top: 18px;
+    margin-bottom: 13px;
+    background-color: white;
+    margin-left: 15px;
+}
+.botton{
+    transform: translateX(-30%);
+    background-color: rgb(19, 143, 239);
+    width: 80px;
+    height: 26px;
+    border: none;
+   float: right;
+   color: white;
+}
+
+.new-account{
+    margin-top: 35px;
+    margin-left: 15px;
+}
+/*   dashboard common  */
+
+.dash-all{
+    font-family: arial;
+    color: rgba(0, 0, 0, 0.703);
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.326);
+    width: 100%;
+    
+}
+
+.dash-all2{
+    background-color: white;
+    height:fit-content;
+    border-left: 1px solid rgba(0, 0, 0, 0.326);
+    width: 100%;
+}
+
+.dash-all3{
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-top: 25px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    
+    margin-left: 3%;
+
+
+}
+
+.dash-all4{
+    width:28% ;
+    border: 1px solid rgba(0, 0, 0, 0.329);
+    margin-left: 3%;
+    
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding-top: 49px;
+    padding-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dash-all-l{
+    font-size: 16px;
+    padding-top: 5px;
+}
+.dash-all-l a{
+    
+    color: rgb(0, 34, 255);
+
+
+}
+
+
+
+/*            header                    */
+
+.dash-header{
+    display: flex;
+}
+
+.dash-header-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.dash{
+    display:flex;
+    
+    background-color: white;
+    height: 52px;
+    width: 82vi; 
+    padding-top: 28px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.416);
+}
+
+.dash2{
+    display: flex;
+    
+    width: 100%;
+    margin-left: 60%;
+    margin-right: 4%;
+}
+
+
+
+
+.dash-head-3{
+    margin-right: 3%;
+    margin-left: 10%;
+    
+    text-align: right;
+
+}
+.dash-head-3 a{
+    color: rgba(0, 0, 0, 0.788);
+}
+
+
+/*            sidebar                    */
+
+.side{
+    width: 18%;
+    height: 100vh;
+   
+    border-right: 1px solid rgba(0, 0, 0, 0.416);
+}
+
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.788);
+    font-family:arial ;
+    
+}
+a.hover,
+a.focus,
+
+.side-head{
+    background-color: white;
+    padding-bottom: 20px;
+    padding-left:15% ;
+    font-size: 30px;
+    padding-top: 20px;
+    border-right: 1px solid rgba(0, 0, 0, 0.416);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.416);
+    height: 40px;
+
+}
+.side-nav{
+    height:30px ;
+    padding-left:15% ;
+   
+    font-size: 15px;
+    font-family: arial;
+    padding-top: 5%;
+    border-bottom: 1px solid rgba(0, 0, 0,0.416);
+    border-right: 1px solid rgba(0, 0, 0, 0.416);
+}
+.side-dash{
+    background-color: white;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border-right: 1px solid rgba(0, 0, 0, 0.416);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.416);
+    padding-left:18% ;
+    height: auto;
+}
+
+
+
+
+/*            change password                   */
+
+.change{
+    
+   
+    width: 100%;
+    
+}
+.change-header{
+    padding-top: 38px;
+    padding-left: 50px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color:rgba(0, 0, 0, 0.468);
+    
+    height: 40px;
+}
+.change1{
+    width: 99.90%;
+    
+    
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.283);
+    height:80vh;
+}
+.change2{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: arial;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.79);
+}
+.change-form{
+    width: 50%;
+    margin-left: 5%;
+    height: fit-content;
+    margin-top: 29px;
+    border: 1px solid rgba(0, 0, 0, 0.283);
+}
+
+.change-leb{
+    margin-top: 25px;
+    font-family: arial;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.644);
+   
+}
+.change-inp{
+    margin-top: 4px;
+}
+.change-form-control{
+    height: 30px;
+    width: 93%;
+    border: 1px solid rgba(0, 0, 0, 0.368);
+
+
+
+
+}
+.button{
+    height: 30px;
+    width: 70px;
+    border: 1px solid rgba(0, 0, 255, 0.527);
+    background-color: white;
+    color: rgba(0, 0, 255, 0.792);
+    font-family: arial ;
+}
+
+
+/*    edit profile  */
+
+.prof{
+    border-left: 1px solid rgba(0, 0, 0, 0.422);
+
+}
+.proff{
+    padding-top: 30px;
+    
+}
+.prof2{
+    background-color: white;
+    margin-top: 30px;
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.402);
+}
+.prof3{
+    border : 1px solid rgba(0, 0, 0, 0.47);
+    margin-left: 4%;
+width: 60%;
+
+}
+.prof3 h3{
+    padding-left: 5%;
+    font-family: arial;
+}
+.prof-edit{
+    
+    padding-top: 20px;
+    
+    color: black;
+}
+
+.prof4{
+    padding-left: 5%;
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.79);
+    font-family: arial;
+    font-size: 15px;
+
+}
+
+.prof-f{
+    height: 40px;
+    
+}
+
+
+
+
+/*    table */
+
+
+.mu-back{
+    background-color: white;
+    width: 100%;
+}
+.mu-head{
+    font-family: arial;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.mu-table{
+    
+    
+    font-family: arial;
+    
+}
+.mu-table-head{
+    font-size: 13px;
+}
+
+table{
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead th{
+    color: rgba(0, 0, 0, 0.715);
+    height: 30px;
+}
+
+tbody td{
+    font-size: 13px;
+    text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.285);
+    height: 30px;
+}
